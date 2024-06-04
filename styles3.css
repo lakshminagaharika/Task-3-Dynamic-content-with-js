@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+/* Home Section */
+#home {
+    background: #eee9a1;
+    color: #333;
+    padding: 100px 0;
+}
+
+#home h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+}
+
+#about .row {
+    align-items: center;
+}
+
+#about img {
+    border-radius: 50%;
+}
+
+#about .card {
+    margin-top: 20px;
+}
+
+#about .card img {
+    border-radius: 0;
+}
+
+/* Tabs Section */
+#tabs {
+    padding: 50px 0;
+}
+
+#tabs .nav-tabs {
+    margin-bottom: 20px;
+}
+
+#tabs .tab-content p {
+    margin-top: 20px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+}
+
+#contact .form-group {
+    margin-bottom: 20px;
+}
+
+/* Dynamic Data Section */
+#data {
+    padding: 50px 0;
+}
+
+#dataContainer .card {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: #b48989;
+    color: #e6e33c;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 2em;
+    }
+
+    #home p {
+        font-size: 1em;
+    }
+
+    #about img {
+        margin-bottom: 20px;
+    }
+
+    #about .card {
+        margin-top: 0;
+    }
+}
